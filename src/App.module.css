@@ -1,0 +1,17 @@
+.leftBar {
+  position: absolute;
+  left: 10.73%;
+  right: 65.1%;
+  top: 11.85%;
+  bottom: 69.48%;
+}
+.bar{
+  position: absolute;
+  left: 455px;
+  top: 160px;
+}
+.main{
+  position: absolute;
+  left: 455px;
+  top: 230px;
+}

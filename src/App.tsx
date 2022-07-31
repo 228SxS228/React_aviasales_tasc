@@ -1,26 +1,23 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import React, { FC } from "react";
+import Cards from "./components/cards/Cards";
+import LeftBar from "./components/leftBar/LeftBar";
+import NavBar from "./components/navBar/NavBar";
+import styles from "./App.module.css";
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.tsx</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
-}
+const App: FC = () => {
+    return (
+        <div>
+            <div className={styles.leftBar}>
+                <LeftBar />
+            </div>
+            <div className={styles.bar}>
+                <NavBar />
+            </div>
+            <div className={styles.main}>
+                <Cards />
+            </div>
+        </div>
+    );
+};
 
 export default App;

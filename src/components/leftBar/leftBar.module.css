@@ -1,0 +1,25 @@
+.head {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    background: #ffffff;
+    box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+    width: 232px;
+    height: 252px;
+}
+.text {
+    font-size: 12px;
+    font-weight: 600px;
+    line-height: 12px;
+    margin-top: 20px;
+}
+.component {
+    display: flex;
+    margin-left: 20px;
+    margin-top: 20px;
+}
+.component div {
+    margin-left: 10px;
+}

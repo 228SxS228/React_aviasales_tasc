@@ -1,0 +1,23 @@
+.head{
+    height: 50px;
+    width:  502px;
+    display: flex;
+    flex-direction:row;
+    border: 1px solid #DFE5EC;
+    border-radius: 3px;
+}
+.component{
+    display: table-cell;
+    vertical-align: middle;
+    text-align: center;
+    border-left: 1px solid #DFE5EC;
+    flex: 1;
+}
+.component:hover{
+    background-color: blue;
+    color: white;
+}
+.text{
+    padding-left: 15px;
+    padding-right: 15px
+}

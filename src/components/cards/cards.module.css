@@ -1,0 +1,42 @@
+.parent {
+    width: 502px;
+    height: 184px;
+
+    background: #ffffff;
+    box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+}
+.up {
+    padding-top: 20px;
+    display: flex;
+    justify-content: space-around;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 24px;
+    color: #2196f3;
+}
+.down {
+    display: flex;
+    flex-direction: row;
+}
+.component {
+    display: table-cell;
+    vertical-align: middle;
+    text-align: center;
+    flex: 1;
+}
+.text {
+    letter-spacing: 0.5px;
+    text-transform: uppercase;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 18px;
+    color: #a0b0b9;
+}
+.text2 {
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 21px;
+    color: #4a4a4a;
+}
